@@ -586,23 +586,25 @@ footer{
   
 }
 .Trafalgar {
-    margin-left: 13%;  
+    margin-left: 13%; 
+    width: 30%; 
 }
 .Trafalgar img{
     color: aliceblue;
-   width: 30%;
+   width: var(--min);
 }
 
 .Trafalgar h4{
     color: aliceblue;
     font-weight: 100;
+    font-size: var(--min)/ 0.6rem;
     /* font-size: 0.5rem; */
    
 }
 
 .Trafalgar p{
     color: aliceblue;
-    
+    font-size: var(--min);
     /* font-size: 0.4rem; */
 }
 
@@ -616,6 +618,8 @@ footer{
     color: aliceblue;
     /* font-size: 0.8rem; */
     font-weight: 100;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .footer ul li{
